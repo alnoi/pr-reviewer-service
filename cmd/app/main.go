@@ -1,8 +1,5 @@
 package main
 
-// TODO better: pointers om return types, need to do smth with set reviewers, make smarter catalogs in http
-// TODO: make stress test, write README, think about docker and make, making better
-
 import (
 	"context"
 	"log"

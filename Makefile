@@ -31,7 +31,7 @@ fmt:
 	$(GOFMT) -w $$(find . -type f -name '*.go' -not -path './vendor/*')
 
 lint:
-	@echo "lint is not configured yet (add golangci-lint here if нужно)"
+	golangci-lint run ./...
 
 test:
 	$(GOTEST) ./...
